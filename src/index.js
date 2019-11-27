@@ -1,6 +1,6 @@
 const list = document.querySelector(".list");
 const itemInput = document.querySelector(".item-input");
-const buttons = document.querySelectorAll(".controls button");
+const buttons = document.querySelectorAll(".controls input");
 
 let items = JSON.parse(window.localStorage.getItem("items")) || [];
 
